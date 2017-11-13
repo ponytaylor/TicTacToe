@@ -1,0 +1,63 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+.setup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.ttgame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+   }
+.row{
+ display: flex;
+ flex-direction: row;
+ width: auto;
+}
+
+.tictacbox{
+    width: 100px;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.displayO {
+    font-family: sans-serif;
+    font-size: 60px;
+    color: blue;
+}
+.displayX{
+    font-family: sans-serif;
+    font-size: 60px;
+    color: yellow;
+}
+.players{
+    margin-bottom: 10px;
+}
+.chosen{
+    background-color: green;
+}
+.reject{
+    background-color: brown;
+}
+
+#playerX, #playerO{
+    color:white;
+}
+.info{
+    margin-top: 30px;
+}
